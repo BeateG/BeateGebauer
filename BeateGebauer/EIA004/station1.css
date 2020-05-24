@@ -1,0 +1,74 @@
+
+body{
+    background-image: url("bg.png");
+}
+section{
+    display: flex;
+    position:relative;
+    height: 500px;
+    width: 700px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+section>.card{ 
+    display: flex;
+    position:absolute;
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+section>.text{
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    bottom: 200px;
+    right: 0px;
+    width: 400px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+section>.welcome{
+    font-weight: bolder;
+    position: absolute;
+    font-size: 26px;
+    left: 50px;
+    top: 70px;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    height: 150px;
+    color: white;
+}
+section>.penguin{
+    position: absolute;
+    left: 540px;
+    top: 250px;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+    width:150px;
+}
+
+section>.shell{
+    position: absolute;
+    left: -30px;
+    top: 290px;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+
+

@@ -1,0 +1,97 @@
+body{
+    background-image: url("bg.png");
+}
+
+section{
+    height: 400px;
+    width: 600px;
+    margin-top: 250px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position:relative;
+}
+
+
+h1{
+    
+    position: absolute;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -150px;
+    left: 300px;
+    color: white;
+}
+
+section>.shell1{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    bottom: 0px;
+    right: 0px;
+    height: 80px;
+    width:65px;
+}
+
+section>.shell2{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    height: 80px;
+    width:65px;
+}
+
+section>.shell3{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    height: 80px;
+    width:65px;
+}
+section>.pearl1{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    bottom: 0px;
+    right: 0px;
+    height: 80px;
+    width:65px;
+}
+
+section>.pearl2{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    height: 80px;
+    width:65px;
+}
+
+section>.pearl3{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    height: 80px;
+    width:65px;
+}
+
+.pearl1:hover{
+    opacity: 0 ;
+}
+
+.pearl2:hover{
+    opacity: 0 ;
+}
+
+.pearl3:hover{
+    opacity: 0 ;
+}

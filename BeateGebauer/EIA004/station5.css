@@ -1,0 +1,75 @@
+body{
+    background-image: url(bg5.png);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 150px;
+    z-index: -1;
+    
+  }
+  
+  .header{
+    display: inline-block;
+    position: absolute;
+    font-size:25px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: -300px;
+    margin-left: -130px;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    background-color: transparent;
+    margin-top: -260px;
+    margin-left: 350px;
+    position: relative;
+    width: 40px;
+
+  }
+  
+  .grid-container > div {
+    background-color: transparent;
+    padding: 20px 0;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  
+  .item3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  
+  .item4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .item5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }

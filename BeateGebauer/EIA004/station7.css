@@ -1,0 +1,31 @@
+body{
+    background-image: url("bg7.png");
+}
+
+section>iframe{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    right: 50px;
+    top: 50px;
+
+}
+section{
+    margin-top: 140px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position:relative;
+    height: 400px;
+    width: 600px;
+    
+}
+
+section>.banderole{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
